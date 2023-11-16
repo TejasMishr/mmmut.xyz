@@ -44,17 +44,17 @@ document.addEventListener("contextmenu", function (e) {
     e.preventDefault();
 })
 
-window.addEventListener('keydown', function (event) {
+// window.addEventListener('keydown', function (event) {
 
-    event.preventDefault();
+//     event.preventDefault();
 
-});
+// });
 
-window.onresize = function () {
-    if ((window.outerHeight - window.innerHeight) > 100) {
-        window.close();
-    }
-}
+// window.onresize = function () {
+//     if ((window.outerHeight - window.innerHeight) > 100) {
+//         window.close();
+//     }
+// }
 
 
 
@@ -77,11 +77,14 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
-window.onresize = function() {
-    if ((window.outerHeight - window.innerHeight) > 100) {
-     window.location.href="/";
-    }
-}
+
+
+
+// window.onresize = function() {
+//     if ((window.outerHeight - window.innerHeight) > 100) {
+//      window.location.href="/";
+//     }
+// }
 //error handle
 try {
     // Code that might produce an error
