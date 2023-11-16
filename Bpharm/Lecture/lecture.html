@@ -7,8 +7,8 @@
     <link href="../pyq/PYQ.css" rel="stylesheet" type="text/css" />
     <!-- <script type="text/javascript" src="../script.js"></script> -->
     <link rel="stylesheet" href="../loader/load.css" />
-    <link rel="stylesheet" href="../pyq/error.css" type="text/css" />
-    <link rel="shortcut icon" href="../logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://mmmut.xyz/pyq/error.css" type="text/css" />
+    <link rel="shortcut icon" href="https://mmmut.xyz/logo.png" type="image/x-icon" />
     <script
       src="https://kit.fontawesome.com/674dd8e09c.js"
       crossorigin="anonymous"
@@ -86,11 +86,11 @@
             <span class="bar" id="bar3"></span>
           </div>
           <ul class="nav no-search">
-            <li class="nav-item"><a href="../index.html">Home</a></li>
-            <li class="nav-item"><a href="#">PYQ</a></li>
+            <li class="nav-item"><a href="https://mmmut.xyz/index.html">Home</a></li>
+            <li class="nav-item"><a href="../bpharm.html">PYQ</a></li>
             <!-- <li class="nav-item"><a href="#">Re</a></li> -->
-            <li class="nav-item"><a href="../team.html">Teams</a></li>
-            <li class="nav-item"><a href="../report.html">Contact</a></li>
+            <li class="nav-item"><a href="https://mmmut.xyz/team.html">Teams</a></li>
+            <li class="nav-item"><a href="https://mmmut.xyz/report.html">Contact</a></li>
             <!-- <i class="fas fa-search" id="search-icon"></i> -->
             <!-- <input class="search-input" type="text" placeholder="Search.."> -->
           </ul>
@@ -208,4 +208,28 @@
     <script src="lecture.js"></script>
   </body>
   <script src="../script.js"></script>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAl6ZAvmADnJ-3XskAjCiya73Q2l3Yxbro",
+      authDomain: "mmmutreso.firebaseapp.com",
+      projectId: "mmmutreso",
+      storageBucket: "mmmutreso.appspot.com",
+      messagingSenderId: "3955922251",
+      appId: "1:3955922251:web:5c61fdf70a647b87d904ce",
+      measurementId: "G-CDM7273LVH"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </html>

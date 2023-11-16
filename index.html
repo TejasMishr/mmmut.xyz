@@ -18,6 +18,35 @@
   <title>MMMUT Resources Gorakhpur</title>
   <meta name="language" content="English">
 
+  <meta name="author" content="MMMUT Reso">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="og:title" content="MMMUT">
+    <meta name="og:description" content="Madan Mohan Malviya University of Technology (MMMUT) and its resources, PYQ and Notes of semesters of B.tech BBA Bpharm MBA MTech Lecture Room etc">
+    <meta name="og:type" content="website">
+    <meta name="og:url" content="https://mmmut.xyz/">
+    <meta name="og:image" content="https://mmmut.xyz/logo.png">
+    <meta name="og:site_name" content="mmmut">
+
+
+    <script type="application/ld+json">
+      {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "MMMut",
+          "alternateName": "mmmut",
+          "url": "https://mmmut.xyz/",
+          "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://query.mmmut.xyz/search?q={mmmut}"
+              },
+              "query-input": "required name=mmmut"
+          }
+      }
+  </script>
+
 
   <!-- //meta tags -->
   <!-- 
@@ -32,13 +61,18 @@
 
 
 
-    function gtag() { dataLayer.push(arguments); }
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
 
     gtag('config', 'G-3C1E212BPY');
   </script>
   <!-- End Google Analytics -->
+
+  <link rel="manifest" href="manifest.json">
+
 
   <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
   <link href="style.css" rel="stylesheet" type="text/css" />
@@ -65,6 +99,7 @@
       position: relative;
 
     }
+
 
     .dg.ac {
       display: none;
@@ -105,6 +140,171 @@
     width: 100vw;
   }
     }
+
+    .right {
+      padding: 2px;
+    }
+
+    @media (max-width: 1150px) {
+      .custom-tab-panel {
+        height: 68vh;
+        overflow-y: scroll;
+      }
+    }
+
+    @media (min-width: 720px) and (max-width: 920px) {
+      .custom-tab-item {
+        padding: 5px 5px;
+        text-decoration: none;
+        color: #333;
+        background-color: #f1f1f1;
+        border: 2px solid #3498db;
+        border-radius: 5px;
+        margin: 0 4px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+      }
+    }
+
+
+    @media (max-width: 450px) {
+      .custom-tab-item {
+        padding: 5px 4px;
+        text-decoration: none;
+        color: #333;
+        background-color: #f1f1f1;
+        border: 2px solid #3498db;
+        border-radius: 5px;
+        margin: 0 6px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+      }
+    }
+
+    @media (max-width: 280px) {
+      .custom-tab-item {
+        padding: 2px 2px;
+        text-decoration: none;
+        color: #333;
+        background-color: #f1f1f1;
+        border: 2px solid #3498db;
+        border-radius: 5px;
+        margin: 0 3px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+      }
+    }
+
+    @media (max-width : 310px) {
+      .image-conntainer {
+        padding: 0;
+      }
+
+      .image-container2 {
+        max-width: 19vw;
+        margin: 0px;
+
+      }
+      .custom-tab-block {
+        gap: 5px;
+      }
+    }
+
+    @media (max-width : 350px) {
+      .image-container img {
+        height: 7vh;
+      }
+
+      /* .image-title{
+        text-transform: lowercase capitalize;
+        /* text-transform: capitalize; */
+
+    }
+
+    @media (max-width : 290px) {
+      .image-title{
+        display: none;
+      }
+
+      .image-container{
+        padding: 2px;
+      }
+
+      .custom-tab-item.active{
+        display: none;
+      }
+
+      .custom-tab-block{
+        gap:11px;
+      }
+
+      .tab-more-button{
+        left: 60%;
+        width: 32%;
+      }
+    }
+
+    .eve{
+      margin-top: -8px;
+    }
+
+
+
+
+/* fixed button install css */
+/* .fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+} */
+
+/* #addToHomeScreenBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    animation: moveUpDown 1s infinite alternate;
+}
+
+#addToHomeScreenBtn:hover {
+    background-color: #28a745;
+}
+
+#addToHomeScreenBtn .download-icon {
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10%;
+
+
+
+} */
+
+#addToHomeScreenBtn{
+    background: none;
+    /* color: white; */
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+    padding: 1px;
+}
+
+/* ---------------------------------- */
+
+
+
+
+    
   </style>
   <script>
     window.ga = window.ga || function () {
@@ -235,7 +435,8 @@
 
         <ul class="nav no-search navi">
           <li class="nav-item"><a href="index.html" class="animation">Home</a></li>
-          <li class="nav-item"><a href="https://forms.gle/qDaCYTcDGpWoqY6C8" class="animation">Contribute</a></li>
+          <li class="nav-item"><a class="animation" id="addToHomeScreenBtn">Install</a></li>
+        
           <!-- <li class="nav-item"><a href="#">Re</a></li> -->
           <li class="nav-item"><a href="team.html" style="text-align: center;" class="animation">Team</a></li>
           <li class="nav-item"><a href="report.html" class="animation">Contact</a></li>
@@ -260,11 +461,75 @@
     <!-- here goes he event and news section -->
 
 
+
+
+<!-- fixed button Html install -->
+
+    <!-- <div class="fixed-button">
+      <div class="circle" id="addToHomeScreenBtn">
+          <span class="download-icon">&#x2B07;</span>
+      </div>
+    </div> -->
+
+
+<!-- ============================ -->
+
+
+
     <section class="eve">
 
       <div class="part">
 
 
+
+        <div class="right">
+          <div class="custom-tab-container tab-container" >
+            <nav>
+              <div class="custom-tab-header">
+                <a class="custom-tab-item active" data-custom-tab="notes">Notes</a>
+                <a class="custom-tab-item" data-custom-tab="pyqs">PYQs</a>
+                <a class="custom-tab-item" data-custom-tab="lectures">Lectures</a>
+                <a class="custom-tab-item" data-custom-tab="misc">Student</a>
+              </div>
+            </nav>
+            <div class="custom-tab-content">
+              <div class="custom-tab-panel active tab-panel" id="custom-notes">
+                <div class="custom-tab-heading">
+                  <!-- <h4>Notes</h4> -->
+                </div>
+                <div class="custom-tab-block" id="custom-tab-block-notes">
+                  <!-- Dynamic images for Notes will be added using JavaScript -->
+                </div>
+              </div>
+              <div class="custom-tab-panel tab-panel" id="custom-pyqs">
+                <div class="custom-tab-heading">
+                  <!-- <h4>PYQs</h4> -->
+                </div>
+                <div class="custom-tab-block" id="custom-tab-block-pyqs">
+                  <!-- Dynamic images for PYQs will be added using JavaScript -->
+                </div>
+              </div>
+              <div class="custom-tab-panel tab-panel" id="custom-lectures">
+                <div class="custom-tab-heading">
+                  <!-- <h4>Lectures</h4> -->
+                </div>
+                <div class="custom-tab-block" id="custom-tab-block-lectures">
+                  <!-- Dynamic images for Lectures will be added using JavaScript -->
+                </div>
+              </div>
+              <div class="custom-tab-panel tab-panel" id="custom-misc">
+                <div class="custom-tab-heading">
+                  <!-- <h4>Misc Materials</h4> -->
+                </div>
+                <div class="custom-tab-block" id="custom-tab-block-misc">
+                  <!-- Dynamic images for Misc Materials will be added using JavaScript -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
         <div class="right">
           <div class="tab-container" style="height: 85vh;">
             <nav>
@@ -297,55 +562,7 @@
 
           </div>
         </div>
-        <div class="right">
-          <div class="custom-tab-container tab-container" >
-            <nav>
-              <div class="custom-tab-header">
-                <a class="custom-tab-item active" data-custom-tab="notes">Notes</a>
-                <a class="custom-tab-item" data-custom-tab="pyqs">PYQs</a>
-                <a class="custom-tab-item" data-custom-tab="lectures">Lectures</a>
-                <!-- <a class="custom-tab-item" data-custom-tab="misc">Misc Materials</a> -->
-              </div>
-            </nav>
-            <div class="custom-tab-content">
-              <div class="custom-tab-panel active tab-panel" id="custom-notes">
-                <div class="custom-tab-heading">
-                  <!-- <h4>Notes</h4> -->
-                </div>
-                <div class="custom-tab-block" id="custom-tab-block-notes">
-                  <!-- Dynamic images for Notes will be added using JavaScript -->
-                </div>
-              </div>
-              <div class="custom-tab-panel tab-panel" id="custom-pyqs">
-                <div class="custom-tab-heading">
-                  <!-- <h4>PYQs</h4> -->
-                </div>
-                <div class="custom-tab-block" id="custom-tab-block-pyqs">
-                  <!-- Dynamic images for PYQs will be added using JavaScript -->
-                </div>
-              </div>
-              <div class="custom-tab-panel tab-panel" id="custom-lectures">
-                <div class="custom-tab-heading">
-                  <h4>Lectures</h4>
-                </div>
-                <div class="custom-tab-block" id="custom-tab-block-lectures">
-                  <!-- Dynamic images for Lectures will be added using JavaScript -->
-                </div>
-              </div>
-              <!-- <div class="custom-tab-panel tab-panel" id="custom-misc">
-                <div class="custom-tab-heading">
-                  <h4>Misc Materials</h4>
-                </div>
-                <div class="custom-tab-block" id="custom-tab-block-misc"> -->
-                  <!-- Dynamic images for Misc Materials will be added using JavaScript -->
-                <!-- </div> -->
-              <!-- </div> -->
-            </div>
-          </div>
 
-
-        </div>
-       
       </div>
     </section>
 
@@ -400,9 +617,9 @@
         <div class="caros" var="13">
           <img class="carosimage" src="eventassets/aradhya.jpeg" />
         </div>
-        <div class="caros" var="14">
+        <!-- <div class="caros" var="14">
           <img class="carosimage" src="eventassets/tnpimg1.jpeg" />
-        </div>
+        </div> -->
 
 
         <div class="backarrow">
@@ -477,42 +694,55 @@
   <!-- test git -->
 
   <script>
-    var caros = document.querySelectorAll('.caros');
-    let currentindex = document.querySelector('.active').getAttribute('var');
-    let numitems = caros.length;
-    var leftclick = document.querySelector('.backarrow')
-    var rightclick = document.querySelector('.rightarrow')
-    leftclick.addEventListener('click', function () {
-      currentindex = document.querySelector('.active').getAttribute('var')
-      console.log(currentindex);
+    document.addEventListener('DOMContentLoaded', function () {
+      var caros = document.querySelectorAll('.caros');
+      var currentindex = 0;
+      var numitems = caros.length;
+      var leftclick = document.querySelector('.backarrow');
+      var rightclick = document.querySelector('.rightarrow');
 
-      caros[currentindex].classList.toggle('active')
-      currentindex = currentindex - 1;
-      if (currentindex < 0) {
-        currentindex = numitems - 1;
+      function updateCarousel() {
+        for (var i = 0; i < numitems; i++) {
+          caros[i].classList.remove('active');
+        }
+        caros[currentindex].classList.add('active');
       }
-      caros[currentindex].classList.toggle('active')
-    })
-    rightclick.addEventListener('click', function () {
-      caros[currentindex].classList.toggle('active')
-      currentindex++;
-      if (currentindex === numitems) {
-        currentindex = 0;
+
+      leftclick.addEventListener('click', function () {
+        currentindex--;
+        if (currentindex < 0) {
+          currentindex = numitems - 1;
+        }
+        updateCarousel();
+      });
+
+      rightclick.addEventListener('click', function () {
+        currentindex++;
+        if (currentindex >= numitems) {
+          currentindex = 0;
+        }
+        updateCarousel();
+      });
+
+      function autoChangeSlide() {
+        currentindex++;
+        if (currentindex >= numitems) {
+          currentindex = 0;
+        }
+        updateCarousel();
       }
-      caros[currentindex].classList.toggle('active')
 
-    })
-    setInterval(() => {
-      caros[currentindex].classList.toggle('active');
-      currentindex++;
+      var interval = setInterval(autoChangeSlide, 7000);
 
+      //Pausing on interaction
+      document.querySelector('.eve').addEventListener('mouseover', function () {
+        clearInterval(interval);
+      });
 
-      if (currentindex === numitems) {
-        currentindex = 0;
-      }
-      caros[currentindex].classList.toggle('active')
-
-    }, 7000);
+      document.querySelector('.eve').addEventListener('mouseout', function () {
+        interval = setInterval(autoChangeSlide, 7000);
+      });
+    });
   </script>
 
   <script src="load/load.js"></script>
@@ -551,4 +781,69 @@
 </script>
 <script src="script.js"></script>
 
+
+
+
+<script>
+  // Select the button element
+const addToHomeScreenBtn = document.getElementById('addToHomeScreenBtn');
+
+// Initialize deferredPrompt for use later to show browser install prompt
+let deferredPrompt;
+
+// Event listener for beforeinstallprompt event
+window.addEventListener('beforeinstallprompt', (event) => {
+  // Prevent Chrome 67 and earlier from automatically showing the prompt
+  event.preventDefault();
+  // Stash the event so it can be triggered later.
+  deferredPrompt = event;
+
+  // Show the button
+  addToHomeScreenBtn.style.display = 'block';
+  
+  // Handle button click
+  addToHomeScreenBtn.addEventListener('click', () => {
+    // Show the install prompt
+    deferredPrompt.prompt();
+
+    // Wait for the user to respond to the prompt
+    deferredPrompt.userChoice
+      .then((choiceResult) => {
+        if (choiceResult.outcome === 'accepted') {
+          console.log('User accepted the A2HS prompt');
+        } else {
+          console.log('User dismissed the A2HS prompt');
+        }
+
+        // Reset the deferredPrompt variable
+        deferredPrompt = null;
+      });
+
+    // Hide the button after prompting
+    // addToHomeScreenBtn.style.display = 'none';
+  });
+});
+
+// Event listener for appinstalled event
+window.addEventListener('appinstalled', (event) => {
+  console.log('App was installed.', event);
+});
+</script>
+
+<!-- <script>
+  const installButton = document.querySelector('.addToHomeScreenBtn');
+const fixedButton = document.getElementById('addToHomeScreenBtn');
+
+installButton.addEventListener('click', function() {
+    fixedButton.style.display = 'block';
+});
+
+fixedButton.addEventListener('click', function(event) {
+    event.stopPropagation(); // Prevents the click event from reaching the body and immediately hiding the button
+});
+
+document.body.addEventListener('click', function() {
+    fixedButton.style.display = 'none';
+});
+</script> -->
 </html>

@@ -50,11 +50,11 @@ window.addEventListener('keydown', function (event) {
 
 });
 
-// window.onresize = function () {
-//     if ((window.outerHeight - window.innerHeight) > 100) {
-//         window.close();
-//     }
-// }
+window.onresize = function () {
+    if ((window.outerHeight - window.innerHeight) > 100) {
+        window.close();
+    }
+}
 
 
 
@@ -77,14 +77,28 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
-// window.onresize = function() {
-//     if ((window.outerHeight - window.innerHeight) > 100) {
-//      window.location.href="/";
-//     }
-// }
+window.onresize = function() {
+    if ((window.outerHeight - window.innerHeight) > 100) {
+     window.location.href="/";
+    }
+}
 //error handle
 try {
     // Code that might produce an error
 } catch (error) {
     // Handle the error silently, or do nothing
 }
+
+
+
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(registration => {
+          console.log('Service Worker registered with scope:', registration.scope);
+        })
+        .catch(error => {
+          console.log('Service Worker registration failed:', error);
+        });
+    });
+  }

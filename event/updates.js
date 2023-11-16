@@ -45,11 +45,12 @@ function addNewItem(tabType, title, description, link, buttonText) {
 
 let currentIndex = 0;
 const eventItems = [
+
   {
-    title: 'Register for the New Semester: Navigate Your Academic Journey Through Registration Portal',
-    description: 'Registration Portal',
-    link: 'https://registration.mmmut.ac.in/',
-    buttonText: 'Register'
+    title: 'Orientation of Codechef MMMUT Chapter Society',
+    description: 'Comming Soon..',
+    link: 'https://chat.whatsapp.com/KE4dZGIit70HGAQk1c8k2d',
+    buttonText: 'Join..'
   },
   
   {
@@ -83,22 +84,10 @@ const eventItems = [
     buttonText: 'LOGIN.'
   },
   {
-    title: 'Website Access Login Portal ( Faculties )',
-    description: 'Only For Faculties',
-    link: 'http://www.mmmut.ac.in/admin_stsmmm/adminlogin_mmmec',
-    buttonText: 'LOGIN.'
-  },
-  {
     title: 'Sponsored Research Projects ',
     description: 'Funded Projects',
     link: 'http://www.mmmut.ac.in/ViewSponsoredProjects',
     buttonText: 'View..'
-  },
-  {
-    title: 'Register for the New Semester: Navigate Your Academic Journey Through Registration Portal',
-    description: 'Registration Portal',
-    link: 'https://registration.mmmut.ac.in/',
-    buttonText: 'Register'
   },
   {
     title: 'Training And Placement Website',
@@ -264,8 +253,10 @@ function scrollEventItems() {
 displayAllEvents();
 
 setTimeout(function() {
-  setInterval(scrollEventItems, 5000);
-}, 5000); // Adjust the delay and interval as needed
+
+  setInterval(scrollEventItems, 2000);
+}, 2000); // Adjust the delay and interval as needed
+
 
 // FORMAT -> addNewItem('Events', 'Event Title', 'Event Description', 'https://example.com', 'Button text');
 
@@ -386,7 +377,7 @@ const notesImages = [
   { src: "img/CIVIL.jpg", title: "CIVIL" ,link: "notes/note.html?branch=4"},
   { src: "img/mech.jpg", title: "MECH",link: "notes/note.html?branch=5" },
   { src: "img/CHEM.jpg", title: "CHEM" ,link: "notes/note.html?branch=6"},
-  { src: "img/syllabus.jpg", title: "SYLLABUS",link: "syllabus/syllabus.html" },
+ 
   { src: "img/Bpharma.jpg", title: "BPHARMA",link: "notes/note.html?branch=7" },
   { src: "img/MCA.jpg", title: "MCA",link: "notes/note.html?branch=8" },
   { src: "img/BBA.jpg", title: "BBA",link: "notes/note.html?branch=9" },
@@ -399,8 +390,9 @@ const notesImages = [
 // Adding dynamic images with titles to the "PYQs" custom tab
 const pyqsImages = [
   { src: "img/btech_pyq.jpg", title: "BTECH",link: "pyq/PYQ.html" },
-  { src: "img/Bpharma_pyq.jpg", title: "BPHARMA" ,link: "Bpharm/bpharm.html?branch=0"},
   { src: "img/mca_pyq.jpg", title: "MCA",link: "MCA/mca.html?branch=0" },
+  { src: "img/Bpharma_pyq.jpg", title: "BPHARMA" ,link: "Bpharm/bpharm.html?branch=0"},
+  
   { src: "img/bba_pyq.jpg", title: "BBA",link: "BBMBA/BBMB.html" },
   { src: "img/mba_pyq.jpg", title: "MBA",link: "BBMBA/BBMB.html" },
   // { src: "img/mca_pyq.jpg", title: "MCA",link: "notes/note.html?branch=0" },
@@ -410,20 +402,28 @@ const pyqsImages = [
 // Adding dynamic images with titles to the "Lectures" custom tab
 const lecturesImages = [
   { src: "img/btech_pyq.jpg", title: "BTECH",link: "Lecture/lecture.html" },
-  { src: "img/Bpharma_pyq.jpg", title: "BPHARMA" ,link: "Bpharm/Lecture/lecture.html"},
-  // { src: "img/mca_pyq.jpg", title: "MCA",link: "notes/note.html?branch=0" },
-  // { src: "img/bba_pyq.jpg", title: "BBA",link: "notes/note.html?branch=0" },
-  // { src: "img/mba_pyq.jpg", title: "MBA",link: "notes/note.html?branch=0" },
-  // { src: "img/mca_pyq.jpg", title: "MCA",link: "notes/note.html?branch=0" },
-  // { src: "img/mtech_pyq.jpg", title: "MTECH",link: "notes/note.html?branch=0" },
+  { src: "img/mtech_pyq.jpg", title: "MTECH",link: "Contribute.html" },
+  { src: "img/Bpharma_pyq.jpg", title: "BPharm" ,link: "Bpharm/Lecture/lecture.html"},
+  { src: "img/mca_pyq.jpg", title: "MCA",link: "MCA/Lecture/lecture.html" },
+  { src: "img/bba_pyq.jpg", title: "BBA",link: "Contribute.html" },
+  { src: "img/mba_pyq.jpg", title: "MBA",link: "Contribute.html" },
+  // { src: "img/mca_pyq.jpg", title: "MCA",link: "Contribute.html" },
+  
 ];
 
 // Adding dynamic images with titles to the "Misc Materials" custom tab
-// const miscImages = [
-//   { src: "img/Misc1.png", title: "Miscellaneous 1",link: "notes/note.html?branch=0" },
-//   { src: "img/Misc2.png", title: "Miscellaneous 2" ,link: "notes/note.html?branch=0"},
-//   { src: "img/Misc3.png", title: "Miscellaneous 3" ,link: "notes/note.html?branch=0"},
-// ];
+const miscImages = [
+  { src: "img/Registration.jpeg", title: "Register" ,link: "https://registration.mmmut.ac.in/"},
+  { src: "img/syllabus.jpg", title: "SYLLABUS",link: "syllabus/syllabus.html" },
+  { src: "img/Result.jpeg", title: "Result" ,link: "http://172.16.1.250:8081/jasperserver/flow.html?_flowId=viewReportFlow&_flowId=viewReportFlow&ParentFolderUri=%2FStudents&reportUnit=%2FStudents%2FResult_of_All_Semesters&standAlone=true"},
+  { src: "img/Academic_calender.jpeg", title: "Calender",link: "holidays/holidays.html" },
+  { src: "img/Cutoff.jpeg", title: "Cutoff" ,link: "cutoff/cutoff.html"},
+  { src: "img/Fee.jpeg", title: "Fee" ,link: "Fee/feestructure.html"},
+  { src: "img/Notice.jpeg", title: "Contribute" ,link: "Contribute.html"},
+  { src: "img/placement.jpeg", title: "Placement" ,link: "Placement/placement.html"},
+  { src: "img/Timetable.jpeg", title: "TimeTable" ,link: "timetable/timetable.html"},
+  { src: "img/Alumini.jpeg", title: "Alumini" ,link: "https://www.malaviyans.in/"},
+];
 
 // Call the function to add dynamic images with titles and parent divs to the respective custom tabs
 
@@ -431,7 +431,7 @@ const lecturesImages = [
 addImagesToCustomTab("notes", notesImages);
 addImagesToCustomTab("pyqs", pyqsImages);
 addImagesToCustomTab("lectures", lecturesImages);
-// addImagesToCustomTab("misc", miscImages);
+addImagesToCustomTab("misc", miscImages);
 
 
 

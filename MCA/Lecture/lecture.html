@@ -3,19 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MMMUT - Lecture Room</title>
-    <meta
-      name="keywords"
-      content="mmmut video lectures,mmmut lectures,mmmut,mmmut gorakhpur,mmmut Lecture,mmmut cut off,mmmut placement,mmmut cut off jee mains,mmmut student login,mmmut gorakhpur cutoff jee mains,mmmut b pharma fees,mmmut is government or private,mmmut .ac.in,mmmut admission process,samarth mmmut,mmmut cut off jee mains percentile,mmmut cse average package,mmmut logo,mmmut counselling 2022,mmmut counselling 2022 date,mmmut gorakhpur cutoff,mmmut ac in,mmmut cut off jee mains,mmmut placement,mmmut entrance exam 2021,mmmut admission,Madan Mohan Malaviya University of Technology, Gorakhpur (U.P.) India,MMMUT pyq,MMMUT PYQ,Madan Mohan Malaviya University,MMMUT reso,mmmut xyz,mmmut resources,mmm,mmmut pyq,mmmut notes,mmmut btech,mmmut BBA,MBA,Bpharma,Mtech"
-    />
-    <meta name="robots" content="index , follow" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="language" content="English" />
+    <title>Lecture Room</title>
     <link href="../pyq/PYQ.css" rel="stylesheet" type="text/css" />
     <!-- <script type="text/javascript" src="../script.js"></script> -->
-    <link rel="stylesheet" href="../loader/load.css" />
-    <link rel="stylesheet" href="../pyq/error.css" type="text/css" />
-    <link rel="shortcut icon" href="../logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://mmmut.xyz/loader/load.css" />
+    <link rel="stylesheet" href="https://mmmut.xyz//pyq/error.css" type="text/css" />
+    <link rel="shortcut icon" href="https://mmmut.xyz/logo.png" type="image/x-icon" />
     <script
       src="https://kit.fontawesome.com/674dd8e09c.js"
       crossorigin="anonymous"
@@ -25,8 +18,15 @@
     <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
 
     <link rel="stylesheet" href="lecture.css" />
+    <link rel="stylesheet" href="../mca.css" />
 
     <style>
+      .navbar{
+        background: black;
+      }
+      .nav-item a{
+        color: #fff;
+      }
       .navbar ul {
         gap: 1vh;
       }
@@ -85,21 +85,18 @@
       <div class="nav-wrapper">
         <div class="grad-bar"></div>
         <nav class="navbar">
-          <a href="../index.html"> <img src="../img/logo.gif" alt="MMMUT" /></a>
+          <a href="../index.html"> <img src="https://mmmut.xyz/img/logo.gif" alt="MMMUT" /></a>
           <div class="menu-toggle" id="mobile-menu" onclick="f1()">
             <span class="bar" id="bar1"></span>
             <span class="bar" id="bar2"></span>
             <span class="bar" id="bar3"></span>
           </div>
-          <ul
-            class="nav no-search"
-            style="align-items: center; text-align: center; gap: 1rem"
-          >
-            <li class="nav-item"><a href="../index.html">Home</a></li>
-            <li class="nav-item"><a href="../pyq/PYQ.html">PYQ</a></li>
+          <ul class="nav no-search">
+            <li class="nav-item"><a href="https://mmmut.xyz">Home</a></li>
+            <li class="nav-item"><a href="../mca.html">PYQ</a></li>
             <!-- <li class="nav-item"><a href="#">Re</a></li> -->
-            <li class="nav-item"><a href="../team.html">Teams</a></li>
-            <li class="nav-item"><a href="../report.html">Contact</a></li>
+            <li class="nav-item"><a href="https://mmmut.xyz/team.html">Teams</a></li>
+            <li class="nav-item"><a href="https://mmmut.xyz/report.html">Contact</a></li>
             <!-- <i class="fas fa-search" id="search-icon"></i> -->
             <!-- <input class="search-input" type="text" placeholder="Search.."> -->
           </ul>
@@ -111,12 +108,12 @@
       <select name="branch" id="branch">
         <option value="-1">Branch</option>
 
-        <option value="0">CSE</option>
-        <option value="1">I.T</option>
+        <option value="0">MCA</option>
+        <!-- <option value="1">I.T</option>
         <option value="2">E.C.E</option>
         <option value="3">EE</option>
         <option value="4">MECH</option>
-        <option value="5">Chemical</option>
+        <option value="5">Chemical</option> -->
       </select>
 
       <select name="semester" id="fileSelect">
@@ -138,108 +135,23 @@
       </select>
     </form>
 
-
-
-
-
     <script>
       var subnames = 
       [
-        //CSE Subjects
+        //MCA Subjects
         [
           //sem 1 subject names
-          ["Linear Algebra and DE", "Linear Algebra", "Function and DE", "BEE", "Web dev"],
+          ["OOPS", "DBMS", "Computer Organization & Architecture", "Software Engineering", "LINUX","Software Engi. Gate Smasher"],
           //sem 2 names
-          ["null", "null", "null", "null", "null", "null"],
+          ["JAVA Programming", "Data Structures & Applications", "Web Technologies", "Operating System Concept",],
           //sem 3
-          ["null", "null", "null", "null", "null", "null"],
-           //sem 4
-           ["null", "null", "null", "null", "null", "null"]
+          ["Artificial Intelligence", "C N", "DAA", "Cloud Computing"],
         ],
-        //IT subjects
-        [
-          // sem 1
-          ["Integral Calculus","Matrix","Differential Equation","Basic of electronics(BEC)","BEC Gautam Sir", "Basic of electrical engineering(BEE)", "Software tools"],
-          //sem 2
-          ["Graph theory and discrete ", "Programming fundamentals", "Applied Stat Unit 1", "Stat Unit 2", "Discrete unit 1", "Discrete Unit 2","Algebric structure Minor"],
-          //sem 3
-          ["Applied Computational Methods(BSM-204)", "Object Oriented Programming(BIT-203)", "null", "null", "null", "null"],
-          //sem 4
-          ["null", "null", "null", "null", "null", "null"],
-           //sem 5
-          ["null", "null", "null", "null", "null", "null"]
-        ],
-
-        //ECE 
-
-        [
-          // sem 1
-          ["Maths", "BEE", "null", "null", "null", "null"],
-          //sem 2
-          ["_C-programming _", "C Lang", "ECE", "BEE", "null", "null"],
-          //sem 3
-          ["null", "null", "null", "null", "null", "null"],
-          //sem 4
-          ["null", "null", "null", "null", "null", "null"],
-           //sem 5
-          ["null", "null", "null", "null", "null", "null"]
-        ],
-
-        //EE
-        [
-          // sem 1
-          ["Electronics Minor 1 & 2", " Maths 1", "Maths 2", "Maths 3", "C language", "null"],
-          //sem 2
-          [" Differential Eqn", "BEE", "null", "null", "null", "null"],
-          //sem 3
-          ["null", "null", "null", "null", "null", "null"],
-          //sem 4
-          ["null", "null", "null", "null", "null", "null"],
-           //sem 5
-          ["null", "null", "null", "null", "null", "null"]
-        ],
-
-        // Mechanical
-
-
-        [
-          // sem 1
-          ["ordinary and partial differential eqn", "C-programming", "Engineering Mechanics", "Tikle's academy"],
-          //sem 2
-          [" Applied physics", "complex anylasis and integral transform", "Thermodynamics"],
-          //sem 3
-          ["null", "null", "null", "null", "null", "null"],
-          //sem 4
-          ["null", "null", "null", "null", "null", "null"],
-           //sem 5
-          ["null", "null", "null", "null", "null", "null"]
-        ],
-        // chemical
-        [
-          // sem 1
-          ["MAths", "Notes Are Enough", "null"],
-          //sem 2
-          ["Maths", "MAths", "Refer To Notes",],
-          //sem 3
-          ["null", "null", "null", "null", "null", "null"],
-          //sem 4
-          ["null", "null", "null", "null", "null", "null"],
-           //sem 5
-          ["null", "null", "null", "null", "null", "null"]
-        ]
-
-        // //
+        // //IT subjects
         // [
-        //   // sem 1
-        //   ["null", "null", "null", "null", "null", "null"],
-        //   //sem 2
-        //   ["null", "null", "null", "null", "null", "null"],
-        //   //sem 3
-        //   ["null", "null", "null", "null", "null", "null"]
-        //   //sem 4
-        //   ["null", "null", "null", "null", "null", "null"],
-        //    //sem 5
-        //   ["null", "null", "null", "null", "null", "null"]
+        //   [" I.T Maths", " I.T Physics", " I.T Chemistry", " I.T Bio", " I.T che", " I.T phy"],
+        //   ["A", "B", "C", "D", "E", null],
+        //   ["X", "Y", "Z", "ZZ", null, null],
         // ]
       ];
 
@@ -281,10 +193,6 @@
       document.getElementById("branch").addEventListener("change", updateSubjects);
       document.getElementById("fileSelect").addEventListener("change", updateSubjects); 
     </script>
-
-
-
-
 
     <div class="container">
       <div class="player">

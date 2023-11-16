@@ -76,7 +76,6 @@ const Pid = [
       "PLhSp9OSVmeyIVQpCt2kwsC1dNVl1GwlVn",  //Matrix
 
       "PLBliHJXnYGcqSLfUTZ2Dk9yRxkk8vX8FC", //Differential Equation
-
       // Subject 2 (sub III) BEC
       "PLwjK_iyK4LLDBB1E9MFbxGCEnmMMOAXOH",
       "PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy", //BEC 
@@ -95,7 +94,7 @@ const Pid = [
       "PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR",
       // Subject 2 (sub III)
       "PLBliHJXnYGcoxAvJ0hKFZE4XIgu1Xa8y6", //Applied Stat Unit 1
-      "PLBliHJXnYGcrhFuWeceuV1uGNh-ohND2x",
+      "PLBliHJXnYGcrhFuWeceuV1uGNh-ohND2x", //Stat 1
       "PLBliHJXnYGcq-D6mpLIh6CHn-Nd4IIFbZ", //Discrete Unit 1
       "PLBliHJXnYGcrM3n-LqgrpTns8t69wVDb-" , //Discrete Unit 2
       "PLBliHJXnYGcpa3018BjWCtdRDpIqz2jAZ" , //Algebric Structure (Minor)
@@ -109,9 +108,9 @@ const Pid = [
     //Semester 3
     [
       // Subject 0 (sub I)
-      "PLspCDH1t7pQddZ5YPr0LHIxSML2ORDKgF",
+      "null",
       // Subject 1 (sub II)
-      "PLISTUNloqsz0z9JJJke7g7PxRLvy6How9",
+      "PL5Dqs90qDljWiE0fK-akBQXH2yp2OWXVr",
       // Subject 2 (sub III)
       "null",
       // Subject 3 (sub IV)
@@ -221,11 +220,14 @@ const Pid = [
     ],
     // Semester 2
     [
-     // Subject 0 (sub I) Differential Eqn
-     "PLdM-WZokR4tbGKbeK8fDIdEN0NEcvAQlC",
-     // Subject 1 (sub II) BEE
-     "PL9RcWoqXmzaLTYUdnzKhF4bYug3GjGcEc",
-     
+
+      // Subject 0 (sub I) Differential Eqn
+      "PLdM-WZokR4tbGKbeK8fDIdEN0NEcvAQlC",
+      // Subject 1 (sub II) BEE
+      "PL9RcWoqXmzaLTYUdnzKhF4bYug3GjGcEc",
+      // Subject 2 (sub III)
+      "Null",
+
       // Subject 3 (sub IV)
       "Null",
       // Subject 4 (sub V)
@@ -339,7 +341,7 @@ const Pid = [
       // Subject 0 (sub I)
       "PLITlusC8mcFEm-fjUm76j2a2EeculkGd5",
       // Subject 1 (sub II)
-      "null",
+      "Study Notes",
       // Subject 2 (sub III)
       "null",
       // Subject 3 (sub IV)
