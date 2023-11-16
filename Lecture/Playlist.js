@@ -5,12 +5,15 @@ const Pid = [
     [
       // Subject 0 (sub I) Sequence Series-
       "PLATr6JN15ruiKzyauE49SIqdfV5r8Wqam&si=rOcROgRP4lJo-7bJ",
+
       // Subject 1 (sub II) Linear Algebra -
       "PLhSp9OSVmeyIVQpCt2kwsC1dNVl1GwlVn",
       // Subject 2 (sub III) Function and DE-
+
       "PLU6SqdYcYsfLPxjd-k-MaoG7qgRQ-2fKc",
       // Subject 3 (sub IV) BEE-
       "PL9RcWoqXmzaLTYUdnzKhF4bYug3GjGcEc",
+      
       // Subject 4 (sub V) Web dev-
       "PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg",
       // Subject 5 (sub VI)
@@ -217,12 +220,14 @@ const Pid = [
     ],
     // Semester 2
     [
+
       // Subject 0 (sub I) Differential Eqn
       "PLdM-WZokR4tbGKbeK8fDIdEN0NEcvAQlC",
       // Subject 1 (sub II) BEE
       "PL9RcWoqXmzaLTYUdnzKhF4bYug3GjGcEc",
       // Subject 2 (sub III)
       "Null",
+
       // Subject 3 (sub IV)
       "Null",
       // Subject 4 (sub V)

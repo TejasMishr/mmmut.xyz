@@ -253,8 +253,10 @@ function scrollEventItems() {
 displayAllEvents();
 
 setTimeout(function() {
+
   setInterval(scrollEventItems, 2000);
 }, 2000); // Adjust the delay and interval as needed
+
 
 // FORMAT -> addNewItem('Events', 'Event Title', 'Event Description', 'https://example.com', 'Button text');
 

@@ -307,11 +307,13 @@ body {
     overflow-y: hidden;
   }
   .tab-container {
+    height: 105vh;
     width: 100vw;
   }
 
   .tab-more-button {
-    left: 80%;
+    left: 65%;
+    width: 30%;
   }
 }
 @media only screen and (max-width: 720px) {
